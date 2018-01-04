@@ -8,7 +8,7 @@
     "url": "https://github.com/scottsword/ts-on-build-webpack"
   },
   "keywords": ["webpack"],
-  "author": "Scott Sword <scott.o.sword@gmail.com>, Sasha Koss <kossnocorp@gmail.com>",
+  "author": "Sasha Koss <kossnocorp@gmail.com>",
   "license": "MIT"
 }
 
