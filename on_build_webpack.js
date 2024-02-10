@@ -19,7 +19,7 @@ function WebpackOnBuildPlugin(callback) {
  * @param {object} compiler
  */
 WebpackOnBuildPlugin.prototype.apply = function(compiler) {
-  compiler.plugin('done', this.callback);
+  compiler.hooks.done.tap("WebpackOnBuildPlugin", this.callback);
 };
 
 module.exports = WebpackOnBuildPlugin;

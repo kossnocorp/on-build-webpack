@@ -11,19 +11,19 @@ npm install --save-dev on-build-webpack
 
 ## Usage
 
-In config file:
+In webpack config file:
 
 ``` javascript
 var WebpackOnBuildPlugin = require('on-build-webpack');
 
-// ...
-  module: {
-    plugins: [
-      new WebpackOnBuildPlugin(function(stats) {
-        // Do whatever you want...
-      }),
-    ]
-  },
-// ...
+module.exports = {
+  // ...
+  plugins: [
+    new WebpackOnBuildPlugin(function(stats) {
+      // Do whatever you want...
+    }),
+  ],
+  // ...
+}
 ```
 
